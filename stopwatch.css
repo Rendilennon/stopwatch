@@ -1,0 +1,33 @@
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#play {
+    align-self: flex-start;
+}
+
+#stop {
+    align-self: flex-end;
+}
+
+h1 {
+    font-size: 2rem;
+}
